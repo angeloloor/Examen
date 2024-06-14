@@ -27,7 +27,7 @@ public class Normal extends Rutas{
 
     @Override
     public double calcularcosto() {
-        double costo = calcularcosto();
+        double costo = 0;
          if (espaciomaleta_extra) {
             costo += 10 * getQuito_Guayaquil();
         }
